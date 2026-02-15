@@ -33,6 +33,9 @@ nodes:
 
 ```bash
 $ kind create cluster --name=tws-cluster --config=config.yml
+```
+
+```output
 Creating cluster "tws-cluster" ...
  ✓ Ensuring node image (kindest/node:v1.35.0) 🖼 ^[[B
  ✓ Preparing nodes 📦 📦 📦 📦  
@@ -47,5 +50,8 @@ You can now use your cluster with:
 kubectl cluster-info --context kind-tws-cluster
 
 Thanks for using kind! 😊
+```
 
+```bash
+kubectl cluster-info --context kind-tws-cluster
 ```
