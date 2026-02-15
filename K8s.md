@@ -55,3 +55,35 @@ Thanks for using kind! 😊
 ```bash
 kubectl cluster-info --context kind-tws-cluster
 ```
+
+```bash
+kubectl get nodes
+```
+
+```bash
+kubectl config use-context kind-tws-cluster
+
+```
+
+```bash
+kubectl run nginx --image=nginx:latest
+
+```
+
+```bash
+kubectl get nsamspace / kubectl get ns
+
+```
+
+
+```bash
+kubectl get pods
+kubectl get pods -n kube-system
+
+```
+
+
+```bash
+kubectl create ns nginx
+
+```
