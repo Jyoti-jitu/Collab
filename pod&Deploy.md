@@ -104,7 +104,7 @@ kubectl delete -f deployment.yml -n nginx
 ```
 
 ```bash
-
+kubes scale deployment/nginx-deployment -n nginx --replicas=5
 
 ```
 ```bash
